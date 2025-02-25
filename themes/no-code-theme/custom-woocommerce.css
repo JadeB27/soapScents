@@ -1,4 +1,3 @@
-/* RESET unwanted margins */
 .wc-block-components-product-summary,
 .wp-block-woocommerce-product-price,
 .wp-block-add-to-cart-form {
@@ -6,14 +5,14 @@
     padding: 0 !important;
 }
 
-/* MAIN PRODUCT PRICE (Single Product Page) */
+/* single product price */
 .single-product .wp-block-woocommerce-product-price {
     position: static !important; 
     margin-left: 0 !important; 
     text-align: left !important; 
 }
 
-/* RELATED PRODUCTS PRICE */
+/* Related product price */
 .related-products .wp-block-woocommerce-product-price,
 .upsells .wp-block-woocommerce-product-price,
 .cross-sells .wp-block-woocommerce-product-price {
@@ -37,4 +36,121 @@
 .woocommerce a.button.add_to_cart_button:hover,
 .woocommerce button.button.single_add_to_cart_button:hover {
     background-color: #A7DAB1; 
+}
+
+/* Product Cards */
+
+.wc-block-product {
+    background-color: #E5D4EF; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.wc-block-product:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+/* Filter on shop page */
+
+select.orderby {
+    background-color: #A7DAB1; 
+    color: #4a3f63; 
+    border: 2px solid #A7DAB1; 
+    border-radius: 8px; 
+    padding: 10px 15px; 
+    font-size: 16px; 
+    transition: all 0.3s ease;
+}
+
+select.orderby:hover, select.orderby:focus {
+    border-color: #76c187; 
+    background-color: #d1f0d4; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Order Summary on checkout */
+
+.wc-block-components-order-summary-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d1a7f7; 
+    padding-bottom: 10px;
+}
+
+.wc-block-components-order-summary-item__description {
+    text-align: center; 
+    padding: 10px 0;
+}
+
+.wp-block-woocommerce-checkout-order-summary-block {
+    background-color: #E5D4EF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Order summary button */
+
+.wc-block-components-button.wp-element-button {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #A7DAB1; 
+    color: #000000; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.wc-block-components-button.wp-element-button:hover {
+    background-color: #8BB88D; 
+    transform: translateY(-2px); 
+}
+
+.wc-block-components-button.wp-element-button:active {
+    background-color: #6F9D71; 
+    transform: translateY(2px); 
+}
+
+.wc-block-components-button.wp-element-button:focus {
+    outline: 2px solid #A7DAB1; 
+}
+
+
+.wc-block-components-form{
+    background-color: #E5D4EF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+/* Order Summary Form Titles */
+
+.wc-block-components-checkout-step__heading h2{
+    text-align: center;
+}
+
+.wc-block-components-checkout-order-summary__title-text{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Background Image */
+
+.page-id-124 {
+    background-image: url('http://soapscents.local/wp-content/uploads/2025/02/Jade_background_image_for_checkout_page_3aee7fcb-9889-4d9e-9b93-57892ad4e1e2.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
