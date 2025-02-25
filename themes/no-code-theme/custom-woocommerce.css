@@ -1,0 +1,40 @@
+/* RESET unwanted margins */
+.wc-block-components-product-summary,
+.wp-block-woocommerce-product-price,
+.wp-block-add-to-cart-form {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* MAIN PRODUCT PRICE (Single Product Page) */
+.single-product .wp-block-woocommerce-product-price {
+    position: static !important; 
+    margin-left: 0 !important; 
+    text-align: left !important; 
+}
+
+/* RELATED PRODUCTS PRICE */
+.related-products .wp-block-woocommerce-product-price,
+.upsells .wp-block-woocommerce-product-price,
+.cross-sells .wp-block-woocommerce-product-price {
+    position: relative !important; 
+    text-align: center !important;
+    display: block !important; 
+    margin-top: 0 !important;
+}
+
+/* Cart button styles */
+.woocommerce a.button.add_to_cart_button,
+.woocommerce button.button.single_add_to_cart_button {
+    background-color: #A7DAB1; 
+    color: #000000; 
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.woocommerce a.button.add_to_cart_button:hover,
+.woocommerce button.button.single_add_to_cart_button:hover {
+    background-color: #A7DAB1; 
+}
