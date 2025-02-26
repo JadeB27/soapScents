@@ -154,3 +154,46 @@ select.orderby:hover, select.orderby:focus {
     background-position: center center;
     background-attachment: fixed;
 }
+
+
+/* Cart Page */
+
+.wc-block-components-sidebar.wc-block-cart__sidebar.wp-block-woocommerce-cart-totals-block {
+    background-color: #E6D6FF; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+}
+
+.wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block{
+    background-color: #E6D6FF; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    max-width: 690px;
+    margin-right: 10px;
+}
+
+.wc-block-components-product-metadata__description p{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+.wc-block-cart-item__remove-link {
+    display: inline-block !important; 
+    background-color: red !important; 
+    color: white !important; 
+    padding: 4px 8px !important; 
+    border: none !important; 
+    border-radius: 5px !important;
+    text-decoration: none !important; 
+    font-weight: bold !important; 
+    cursor: pointer !important;
+    transition: background 0.3s ease-in-out !important;
+}
+
+.wc-block-cart-item__remove-link:hover {
+    background-color: darkred !important;
+}
