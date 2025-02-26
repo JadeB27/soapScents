@@ -334,10 +334,10 @@ select.orderby:hover, select.orderby:focus {
     background: #76c187;
 }
 
-/* @media screen and (max-width: 1024px) {
-    body{
+@media screen and (max-width: 1024px) {
+    /* body{
         padding: 20px;
-    }
+    } */
 
     .wc-block-components-order-summary-item {
         flex-direction: column;
@@ -351,9 +351,9 @@ select.orderby:hover, select.orderby:focus {
 }
 
 @media screen and (max-width: 768px) {
-    body{
+    /* body{
         padding: 20px;
-    }
+    } */
 
     .wc-block-product {
         padding: 15px;
@@ -372,9 +372,9 @@ select.orderby:hover, select.orderby:focus {
 }
 
 @media screen and (max-width: 480px) {
-    body{
+    /* body{
         padding: 20px;
-    }
+    } */
 
     .wc-block-product {
         padding: 10px;
@@ -390,4 +390,4 @@ select.orderby:hover, select.orderby:focus {
         font-size: 12px;
         padding: 6px 12px;
     }
-} */
+}
