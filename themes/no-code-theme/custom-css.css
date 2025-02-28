@@ -1,0 +1,13 @@
+/* .wp-block-list {
+    text-align: center;
+    display: block;
+} */
+
+.wp-block-image{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.wp-block-image:hover{
+    transform: scale(1.05); 
+}
