@@ -38,6 +38,10 @@
     background-color: #A7DAB1; 
 }
 
+.wc-block-components-button__text{
+    color: #000000 !important;
+}
+
 /* Product Cards */
 
 .wc-block-product {
