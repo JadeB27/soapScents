@@ -241,6 +241,7 @@ select.orderby:hover, select.orderby:focus {
 }
 
 /* Product Cards */
+
 .wc-block-product {
     background-color: #E5D4EF; 
     padding: 20px;
@@ -252,6 +253,14 @@ select.orderby:hover, select.orderby:focus {
     transform: scale(1.05); 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+}
+
+.wp-block-post-title{
+    margin: 0 !important;
+}
+
+.wp-block-woocommerce-product-price{
+    padding: 5px !important;
 }
 
 /* Profile Page */
