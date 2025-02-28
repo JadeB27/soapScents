@@ -7,6 +7,7 @@
 
 .wp-block-image:hover{
     transform: scale(1.05); 
+    cursor: pointer;
 }
 
 /* Hover on posts on post page */
