@@ -330,7 +330,7 @@ select.orderby:hover, select.orderby:focus {
     background: #76c187;
 }
 
-.woocommerce-Button{
+.woocommerce-Button, .woocommerce-form-login__submit{
     background: #A7DAB1;
     color: #000000;
     padding: 12px 20px;
@@ -385,7 +385,6 @@ select.orderby:hover, select.orderby:focus {
     display: block;
     background-color: #E5D4EF;
 }
-
 
 /* Responsive */
 
