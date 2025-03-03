@@ -377,6 +377,15 @@ select.orderby:hover, select.orderby:focus {
     font-size: 16px !important;
 }
 
+.wp-block-woocommerce-empty-cart-block > * {
+    display: none;
+}
+
+.wp-block-woocommerce-empty-cart-block .wc-block-cart__empty-cart__title, .wp-block-separator {
+    display: block;
+    background-color: #E5D4EF;
+}
+
 
 /* Responsive */
 
