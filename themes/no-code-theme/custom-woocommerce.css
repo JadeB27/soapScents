@@ -260,7 +260,8 @@ select.orderby:hover, select.orderby:focus {
 }
 
 .wp-block-post-title{
-    margin: 0 !important;
+    /* margin: 0 !important; */
+    margin-bottom: 0 !important;
 }
 
 .wp-block-woocommerce-product-price{
@@ -345,6 +346,38 @@ select.orderby:hover, select.orderby:focus {
 
 .woocommerce-Button:hover {
     background: #76c187;
+}
+
+/* Notice banner */
+
+.woocommerce-notices-wrapper {
+    padding: 10px 0;
+}
+
+/* Notice Banner */
+.wc-block-components-notice-banner {
+    display: flex !important;
+    align-items: center !important;
+    background-color: #E5D4EF !important; 
+    border-left: 5px solid lightgreen !important; 
+    border-radius: 5px !important;
+    padding: 12px !important;
+    color: black !important;
+    font-weight: bold !important;
+    box-shadow: 0 0 5px rgba(211, 211, 211, 0.5) !important;
+    position: relative !important;
+    border-color: #A7DAB1 !important;
+}
+
+/* Hide SVG Icon */
+.wc-block-components-notice-banner svg {
+    display: none;
+}
+
+/* Notice Content */
+.wc-block-components-notice-banner__content {
+    flex: 1 !important;
+    font-size: 16px !important;
 }
 
 @media screen and (max-width: 1024px) {
