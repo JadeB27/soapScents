@@ -39,7 +39,7 @@ function register_soap_care_cpt() {
     $args = array(
         'labels'                => $labels,
         'description'           => __( 'Educational guides on soap storage, usage, and care.', 'soapscents-soapcareguides-pt' ),
-        'hierarchical'          => false,
+        'public'                => true,
         'show_ui'               => true,
         'show_in_menu'          => true,
         'show_in_rest'          => true,
