@@ -1,3 +1,6 @@
+/* Styles for WooCommerce Blocks/Pages */
+
+/* Reset margins and paddings for product summary, price, and add-to-cart form */
 .wc-block-components-product-summary,
 .wp-block-woocommerce-product-price,
 .wp-block-add-to-cart-form {
@@ -5,14 +8,14 @@
     padding: 0 !important;
 }
 
-/* single product price */
+/* Style for single product price */
 .single-product .wp-block-woocommerce-product-price {
     position: static !important; 
     margin-left: 0 !important; 
     text-align: left !important; 
 }
 
-/* Related product price */
+/* Style for related, upsell, and cross-sell product prices */
 .related-products .wp-block-woocommerce-product-price,
 .upsells .wp-block-woocommerce-product-price,
 .cross-sells .wp-block-woocommerce-product-price {
@@ -22,7 +25,7 @@
     margin-top: 0 !important;
 }
 
-/* Cart button styles */
+/* Styling for add to cart buttons */
 .woocommerce a.button.add_to_cart_button,
 .woocommerce button.button.single_add_to_cart_button {
     background-color: #A7DAB1; 
@@ -33,17 +36,22 @@
     transition: 0.3s;
 }
 
+/* Hover effect for add to cart buttons */
 .woocommerce a.button.add_to_cart_button:hover,
 .woocommerce button.button.single_add_to_cart_button:hover {
     background-color: #A7DAB1; 
 }
 
+/* Style for button text */
 .wc-block-components-button__text{
     color: #000000 !important;
 }
 
+
 /* Product Cards */
 
+
+/* Styling for product cards */
 .wc-block-product {
     background-color: #E5D4EF; 
     padding: 20px;
@@ -51,15 +59,14 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
+/* Hover effect for product cards */
 .wc-block-product:hover {
     transform: scale(1.05); 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
 
-
-/* Filter on shop page */
-
+/* Styling for order-by dropdown on shop page */
 select.orderby {
     background-color: #A7DAB1; 
     color: #4a3f63; 
@@ -70,6 +77,7 @@ select.orderby {
     transition: all 0.3s ease;
 }
 
+/* Hover and focus effects for order-by dropdown */
 select.orderby:hover, select.orderby:focus {
     border-color: #76c187; 
     background-color: #d1f0d4; 
@@ -77,8 +85,11 @@ select.orderby:hover, select.orderby:focus {
     cursor: pointer;
 }
 
-/* Order Summary on checkout */
 
+/* Order Summary */
+
+
+/* Styling for order summary items on checkout page */
 .wc-block-components-order-summary-item {
     display: flex;
     flex-direction: column; 
@@ -88,19 +99,20 @@ select.orderby:hover, select.orderby:focus {
     padding-bottom: 10px;
 }
 
+/* Styling for order summary item description */
 .wc-block-components-order-summary-item__description {
     text-align: center; 
     padding: 10px 0;
 }
 
+/* Styling for order summary block on checkout page */
 .wp-block-woocommerce-checkout-order-summary-block {
     background-color: #E5D4EF;
     padding: 20px;
     border-radius: 10px;
 }
 
-/* Order summary button */
-
+/* Styling for order summary button */
 .wc-block-components-button.wp-element-button {
     display: flex;
     align-items: center; 
@@ -117,21 +129,24 @@ select.orderby:hover, select.orderby:focus {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+/* Hover effect for order summary button */
 .wc-block-components-button.wp-element-button:hover {
     background-color: #8BB88D; 
     transform: translateY(-2px); 
 }
 
+/* Active state for order summary button */
 .wc-block-components-button.wp-element-button:active {
     background-color: #6F9D71; 
     transform: translateY(2px); 
 }
 
+/* Focus state for order summary button */
 .wc-block-components-button.wp-element-button:focus {
     outline: 2px solid #A7DAB1; 
 }
 
-
+/* Styling for form components */
 .wc-block-components-form{
     background-color: #E5D4EF;
     padding: 20px;
@@ -139,19 +154,18 @@ select.orderby:hover, select.orderby:focus {
     margin-top: 5px;
 }
 
-/* Order Summary Form Titles */
-
+/* Styling for checkout step headings */
 .wc-block-components-checkout-step__heading h2{
     text-align: center;
 }
 
+/* Styling for order summary title */
 .wc-block-components-checkout-order-summary__title-text{
     text-align: center;
     font-size: 20px;
 }
 
-/* Background Image */
-
+/* Background image for checkout page */
 .page-id-124 {
     background-image: url('http://soapscents.local/wp-content/uploads/2025/02/Jade_background_image_for_checkout_page_3aee7fcb-9889-4d9e-9b93-57892ad4e1e2.png');
     background-size: cover;
@@ -160,8 +174,10 @@ select.orderby:hover, select.orderby:focus {
 }
 
 
-/* Cart Page */
+/* Cart Page/Sidebar */
 
+
+/* Styling for cart sidebar */
 .wc-block-components-sidebar.wc-block-cart__sidebar.wp-block-woocommerce-cart-totals-block {
     background-color: #E6D6FF; 
     padding: 20px;
@@ -170,6 +186,7 @@ select.orderby:hover, select.orderby:focus {
     margin-left: 10px;
 }
 
+/* Styling for cart main content */
 .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block{
     background-color: #E6D6FF; 
     padding: 20px;
@@ -180,12 +197,14 @@ select.orderby:hover, select.orderby:focus {
     margin-right: 10px;
 }
 
+/* Styling for product metadata description */
 .wc-block-components-product-metadata__description p{
     margin: 0;
     padding: 0;
     font-size: 13px;
 }
 
+/* Styling for remove item link in cart */
 .wc-block-cart-item__remove-link {
     display: inline-block !important; 
     background-color: red !important; 
@@ -199,6 +218,7 @@ select.orderby:hover, select.orderby:focus {
     transition: background 0.3s ease-in-out !important;
 }
 
+/* Hover effect for remove item link */
 .wc-block-cart-item__remove-link:hover {
     background-color: darkred !important;
 }
@@ -244,8 +264,11 @@ select.orderby:hover, select.orderby:focus {
     background-color: #A7DAB1; 
 }
 
+
 /* Product Cards */
 
+
+/* Styles for product card */
 .wc-block-product {
     background-color: #E5D4EF; 
     padding: 20px;
@@ -253,22 +276,28 @@ select.orderby:hover, select.orderby:focus {
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
+/* Styling for product card hover */
 .wc-block-product:hover {
     transform: scale(1.05); 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
 
+/* Styling for post title */
 .wp-block-post-title{
     margin-bottom: 0 !important;
 }
 
+/* Styles for product card padding */
 .wp-block-woocommerce-product-price{
     padding: 5px !important;
 }
 
-/* Profile Page */
 
+/* Account Page */
+
+
+/* Styling for account navigation */
 .woocommerce-MyAccount-navigation {
     margin-left: 20px;
     border: none;
@@ -279,11 +308,13 @@ select.orderby:hover, select.orderby:focus {
     color: white;
 }
 
+/* Styling for account content */
 .woocommerce-MyAccount-content{
     margin-right: 20px;
     max-width: 63%;
 }
 
+/* Styling for address section */
 .woocommerce-Addresses {
     display: flex;
     gap: 20px;
@@ -291,6 +322,7 @@ select.orderby:hover, select.orderby:focus {
     margin-top: 20px;
 }
 
+/* Styling for individual address */
 .woocommerce-Address {
     background: #fff;
     padding: 20px;
@@ -300,6 +332,7 @@ select.orderby:hover, select.orderby:focus {
     min-width: 280px; 
 }
 
+/* Styling for address title */
 .woocommerce-Address-title {
     font-size: 1.2em;
     margin-bottom: 10px;
@@ -309,12 +342,14 @@ select.orderby:hover, select.orderby:focus {
     text-align: center;
 }
 
+/* Styling for address text */
 .woocommerce-Address address {
     font-size: 1em;
     line-height: 1.6;
     color: #555;
 }
 
+/* Styling for address edit link */
 .woocommerce-Address a {
     display: inline-block;
     margin-top: 10px;
@@ -326,10 +361,12 @@ select.orderby:hover, select.orderby:focus {
     transition: background 0.3s ease;
 }
 
+/* Hover effect for address edit link */
 .woocommerce-Address a:hover {
     background: #76c187;
 }
 
+/* Styling for account buttons */
 .woocommerce-Button, .woocommerce-form-login__submit{
     background: #A7DAB1;
     color: #000000;
@@ -343,6 +380,7 @@ select.orderby:hover, select.orderby:focus {
     text-align: center;
 }
 
+/* Hover effect for account buttons */
 .woocommerce-Button:hover {
     background: #76c187;
 }
@@ -350,10 +388,13 @@ select.orderby:hover, select.orderby:focus {
 
 /* Notice banners */
 
+
+/* Styling for notice wrapper */
 .woocommerce-notices-wrapper {
     padding: 10px 0;
 }
 
+/* Styling for notice banner */
 .wc-block-components-notice-banner {
     display: flex !important;
     align-items: center !important;
@@ -368,32 +409,41 @@ select.orderby:hover, select.orderby:focus {
     border-color: #A7DAB1 !important;
 }
 
+/* Hide SVG in notice banner */
 .wc-block-components-notice-banner svg {
     display: none;
 }
 
+/* Styling for notice banner content */
 .wc-block-components-notice-banner__content {
     flex: 1 !important;
     font-size: 16px !important;
 }
 
+/* Hide empty cart block content */
 .wp-block-woocommerce-empty-cart-block > * {
     display: none;
 }
 
+/* Show empty cart title and separator */
 .wp-block-woocommerce-empty-cart-block .wc-block-cart__empty-cart__title, .wp-block-separator {
     display: block;
     background-color: #E5D4EF;
 }
 
-/* Responsive */
 
+/* Responsive Styles */
+
+
+/* Media query for screens smaller than 1024px (tablets and smaller) */
 @media screen and (max-width: 1024px) {     
 
+    /* Adjust order summary item layout */
     .wc-block-components-order-summary-item {
         flex-direction: column;
     }
     
+    /* Adjust cart sidebar and main content layout */
     .wc-block-components-sidebar.wc-block-cart__sidebar.wp-block-woocommerce-cart-totals-block,
     .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block {
         margin: 0;
@@ -401,36 +451,44 @@ select.orderby:hover, select.orderby:focus {
     }
 }
 
+/* Media query for screens smaller than 768px (smaller tablets and larger phones) */
 @media screen and (max-width: 768px) {
 
+    /* Adjust product card padding */
     .wc-block-product {
         padding: 15px;
     }
     
+    /* Adjust add to cart button size */
     .woocommerce a.button.add_to_cart_button,
     .woocommerce button.button.single_add_to_cart_button {
         font-size: 14px;
         padding: 10px 15px;
     }
 
+    /* Adjust order summary button size */
     .wc-block-components-button.wp-element-button {
         font-size: 14px;
         padding: 8px 15px;
     }
 }
 
+/* Media query for screens smaller than 480px (phones) */
 @media screen and (max-width: 480px) {
 
+    /* Further adjust product card padding */
     .wc-block-product {
         padding: 10px;
     }
     
+    /* Further adjust add to cart button size */
     .woocommerce a.button.add_to_cart_button,
     .woocommerce button.button.single_add_to_cart_button {
         font-size: 12px;
         padding: 8px 12px;
     }
     
+     /* Further adjust order summary button size */
     .wc-block-components-button.wp-element-button {
         font-size: 12px;
         padding: 6px 12px;
