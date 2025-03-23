@@ -1,22 +1,25 @@
-/* Hover on homepage posts */
+/* Styles for Wordpress Blocks not involved with WooCommerce */
 
-.wp-block-image{
+
+/* Hover effect on images in posts on the homepage */
+.wp-block-image {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.wp-block-image:hover{
-    transform: scale(1.05); 
+/* Hover state for homepage images */
+.wp-block-image:hover {
+    transform: scale(1.05);
     cursor: pointer;
 }
 
-/* Hover on posts on post page */
-
-.wp-block-post{
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+/* Hover effect on posts in the post page */
+.wp-block-post {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.wp-block-post:hover{
-    transform: scale(1.02); 
+/* Hover state for post blocks */
+.wp-block-post:hover {
+    transform: scale(1.02);
     cursor: pointer;
 }
